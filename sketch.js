@@ -61,7 +61,7 @@ var select_sprites = Math.round(random(1,3));
        createApples();
      } else if (select_sprites == 2) {
        createOrange();
-     }
+     } else {createRed()};
    }
 
   // if (frameCount / 80 == 0) {
